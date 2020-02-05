@@ -1,5 +1,5 @@
 ---
-author: stefan.stojanovic
+author: Stefan-Stojanovic
 
 levels:
   - beginner
@@ -11,30 +11,24 @@ category: must-know
 
 stub: true
 
-standards:
-  web.semantic-html.0: 10
-  web.semantic-html.1: 10
-  web.semantic-html.3: 10
-
 aspects:
   - introduction
   - workout
   - deep
 
 links:
-  - '[CodePen: Address Element](https://codepen.io/enkidevs/pen/OEoaVN){code}'
-  - '[MDN docs for address](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/address){website}'
+  - '[HTML <address> element](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/address){documentation}'
 
 ---
-# Address
+# The `<address>` Element
 ---
 ## Content
 
 The HTML `<address>` element is used to provide contact information about the author. This element is displayed as a block element and has a default styling like the `<i>` and `<em>` elements (the text is italic).
 
-![address](%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22320%22%20height%3D%2288%22%3E%3Cg%20fill%3D%22none%22%20fill-rule%3D%22evenodd%22%3E%3Crect%20width%3D%22320%22%20height%3D%2288%22%20fill%3D%22%23FFF%22%20rx%3D%229%22%2F%3E%3Ctext%20fill%3D%22%23000%22%20font-family%3D%22Arial-ItalicMT%2C%20Arial%22%20font-size%3D%2216%22%20font-style%3D%22italic%22%3E%3Ctspan%20x%3D%2218%22%20y%3D%2232%22%3E1107%20Pearl%20Street%2C%20%3C%2Ftspan%3E%20%3Ctspan%20x%3D%2218%22%20y%3D%2249%22%3EBoulder%2C%20Colorado%20%3C%2Ftspan%3E%20%3Ctspan%20x%3D%2218%22%20y%3D%2266%22%3E80302%3C%2Ftspan%3E%3C%2Ftext%3E%3C%2Fg%3E%3C%2Fsvg%3E)
+![address](https://img.enkipro.com/9ec8992af472e5a9d37e0d1f01a1d69a.png)
 
-This element can contain different types of content: 
+This element can contain different types of content:
   - Physical address
   - URL
   - E-mail address
@@ -59,7 +53,7 @@ Address Example:
 </address>
 ```
 
-<!--[View CodePen](https://codepen.io/enkidevs/pen/OEoaVN)-->
+[View CodePen](https://codepen.io/enkidevs/pen/OEoaVN)
 
 Beside representing contact information about the author of the document, the `<address>` element can be used with different types of context. When placed within a `<body>` element it represents information about the document. When placed within an `<article>` element it represents information about an article.
 
@@ -92,4 +86,3 @@ Which HTML element is used to contain contact information for its nearest `<arti
 * `<info>`
 * `<postal>`
 * `<authorship>`
- 

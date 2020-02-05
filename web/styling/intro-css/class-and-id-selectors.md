@@ -15,7 +15,7 @@ category: must-know
 inAlgoPool: false
 
 links:
-  - '[MDN](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Selectors){documentation}'
+  - '[MDN Docs on CSS Selectors](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Selectors){documentation}'
   - '[Scrimba CSS Selectors, Properties & Values](https://scrimba.com/p/pWvwCg/cpKbvTV){website}'
   - "[Scrimba CSS Classes and ID's](https://scrimba.com/p/pWvwCg/cBQp9Cw){website}"
 
@@ -47,7 +47,7 @@ An element can have multiple classes, as you can see above. The `<div>` with `ma
 
 
 ### ID Selectors
-ID selectors have the most priority out the three, as they target one unique element at a time. In the style sheet, they are always invoked with a hashtag before the id:
+ID selectors have the most priority out of the three, as they target one unique element at a time. In the style sheet, they are always invoked with a hashtag before the id:
 ```css
 #my-div{}
 #title{}

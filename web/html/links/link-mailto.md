@@ -1,5 +1,5 @@
 ---
-author: stefan.stojanovic
+author: Stefan-Stojanovic
 
 levels:
   - beginner
@@ -16,7 +16,7 @@ aspects:
   - introduction
 
 links:
-  - '[MDN docs for anchor](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/a){website}'
+  - '[HTML <a> Element](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/a){website}'
 
 ---
 # Mailto:

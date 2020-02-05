@@ -1,5 +1,5 @@
 ---
-author: stefan.stojanovic
+author: Stefan-Stojanovic
 
 levels:
   - beginner
@@ -8,10 +8,6 @@ levels:
 type: normal
 
 category: must-know
-
-standards:
-  web.metadata.0: 10
-  web.metadata.2: 10
 
 tags:
   - introduction
@@ -22,7 +18,7 @@ aspects:
   - workout
 
 ---
-# Author
+# The `author` Attribute
 ---
 ## Content
 

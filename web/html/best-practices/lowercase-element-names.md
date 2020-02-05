@@ -1,5 +1,5 @@
 ---
-author: stefan.stojanovic
+author: Stefan-Stojanovic
 
 levels:
   - beginner
@@ -12,9 +12,6 @@ category: must-know
 aspects:
   - introduction
   - obscura
-
-standards:
-  web.syntax-html.6: 10
 
 ---
 # Lowercase element names

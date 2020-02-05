@@ -39,11 +39,11 @@ aspects:
 ---
 ## Content
 
-EcmaScript **version 5** introduced a feature called **strict mode** that makes the JavaScript interpreter enforce a more stringent set of rules.
+ECMAScript **version 5** introduced a feature called **strict mode** that makes the JavaScript interpreter enforce a more stringent set of rules.
 
 **What does strict mode do?**
 
-Strict mode takes a number of probable mistakes that would either work, or fail silently and turn them into errors.
+Strict mode takes a number of probable mistakes that would either work, or fail silently and turns them into errors.
 
 Arguably one of the most important issues strict mode will catch is that it will throw errors if you forget to use the `var` statement when declaring variables, thus preventing global variables being accidentally created.
 
@@ -63,7 +63,7 @@ Warning! This will apply strict mode to code in the current scope. So you probab
 ---
 ## Practice
 
-How do you enable **strict mode** in EcmaScript 5?
+How do you enable **strict mode** in ECMAScript 5?
 
 ```
 "??? ???";
@@ -82,7 +82,7 @@ How do you enable **strict mode** in EcmaScript 5?
 ---
 ## Revision
 
-How do you enable **strict mode** in EcmaScript 5?
+How do you enable **strict mode** in ECMAScript 5?
 
 ```
 "??? ???";

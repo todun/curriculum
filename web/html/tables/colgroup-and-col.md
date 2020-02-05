@@ -1,5 +1,5 @@
 ---
-author: stefan.stojanovic
+author: Stefan-Stojanovic
 
 levels:
   - beginner
@@ -8,10 +8,6 @@ levels:
 type: normal
 
 category: must-know
-
-standards:
-  web.syntax-html.1: 1000
-  web.layout-html.1: 1000
 
 tags:
   - workout
@@ -23,10 +19,9 @@ aspects:
   - deep
 
 links:
-  - '[CodePen: Table Colgroup](https://codepen.io/enkidevs/pen/bjWGNy){code}'
-  
+
 ---
-# Colgroup & col
+# The `<colgroup>` & `<col>` Elements
 ---
 ## Content
 
@@ -63,9 +58,9 @@ Example with both elements:
 </table>
 ```
 
-<!--[View CodePen](https://codepen.io/enkidevs/pen/bjWGNy)-->
+[View CodePen](https://codepen.io/enkidevs/pen/bjWGNy)
 
-In the example above, the `<colgroup>` element is used to create a group of 3 `<col>` elements and the `<tr>` element is used to create a single row with 6 `<td>` elements. Each col element spans differently and has a different style; first `<col>` spans 2 columns and is `lightblue`, 2nd `<col>` spans 1 column and is `hotpink` and the third and last `<col>` spans 3 columns and is `mediumpurple`.  
+In the example above, the `<colgroup>` element is used to create a group of 3 `<col>` elements and the `<tr>` element is used to create a single row with 6 `<td>` elements. Each col element spans differently and has a different style; first `<col>` spans 2 columns and is `lightblue`, 2nd `<col>` spans 1 column and is `hotpink` and the third and last `<col>` spans 3 columns and is `mediumpurple`.
 
 ---
 ## Practice

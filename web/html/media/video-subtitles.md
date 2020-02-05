@@ -1,5 +1,5 @@
 ---
-author: stefan.stojanovic
+author: Stefan-Stojanovic
 
 levels:
   - beginner
@@ -9,18 +9,14 @@ type: normal
 
 category: must-know
 
-standards:
-  web.embed-media.1: 10
-
 aspects:
   - introduction
   - workout
   - deep
 
 links:
-  - '[CodePen: Video subtitles with webvtt](https://codepen.io/enkidevs/pen/YjPYKm){code}'
-  - '[a walkthrough](https://www.quackit.com/html_5/tags/html_video_tag.cfm){website}'
-  - '[Documentation on MDN](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/video){documentation}'
+  - '[Walkthrough for <video>](https://www.quackit.com/html_5/tags/html_video_tag.cfm){article}'
+  - '[HTML <video> Element](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/video){documentation}'
 
 ---
 # Video Subtitles
@@ -30,7 +26,7 @@ links:
 Subtitles can be added to the videos via the `<track>` element like this:
 
 ```html
-<video src='video/tina.mp4'">
+<video src="video/tina.mp4">
   <track src="video/subtitles.vtt"
   kind="subtitles"
   srclang="en" />
@@ -38,7 +34,7 @@ Subtitles can be added to the videos via the `<track>` element like this:
 
 ```
 
-The WebVTT (.vtt), which stands for “Web Video Text Track” file can look like this below and are often created using software programs vs typing all of that out by hand. As you can see, the time stamp states the starting and ending of the subtitle. There are also tags in this case like `<v>`, `<c>`, and `<i>` which allow for unique CSS styling, which can be found in the CodePen Example:  
+The WebVTT (.vtt), which stands for “Web Video Text Track” file can look like this below and are often created using software programs vs typing all of that out by hand. As you can see, the time stamp states the starting and ending of the subtitle. There are also tags in this case like `<v>`, `<c>`, and `<i>` which allow for unique CSS styling, which can be found in the CodePen Example:
 
 ```WEBVTT
 
@@ -60,7 +56,7 @@ Sounds
 
 ```
 
-<!--[View CodePen](https://codepen.io/enkidevs/pen/YjPYKm)-->
+[View CodePen](https://codepen.io/enkidevs/pen/YjPYKm)
 
 All WebVTT files start with the line **WebVTT**.
 
@@ -125,4 +121,3 @@ For files that contain subtitles that can be used with web videos, what file for
 * .sub
 * .txt
 * .track
- 

@@ -1,5 +1,5 @@
 ---
-author: stefan.stojanovic
+author: Stefan-Stojanovic
 
 levels:
   - beginner
@@ -20,9 +20,8 @@ tags:
   - deep
 
 links:
-  - '[CodePen](https://codepen.io/enkidevs/pen/YjqEWp){code}'
-  - '[MDN docs for figure](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/figure){website}'
-  - '[MDN docs for figcaption](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/figcaption){website}'
+  - '[HTML <figure> Element](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/figure){documentation}'
+  - '[HTML <figcaption> Element](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/figcaption){documentation}'
 
 ---
 # Figure & Figcaption
@@ -49,7 +48,7 @@ Example with a poem:
 </figure>
 ```
 
-<!--[View CodePen](https://codepen.io/enkidevs/pen/YjqEWp)-->
+[View CodePen](https://codepen.io/enkidevs/pen/YjqEWp)
 
 ---
 ## Practice

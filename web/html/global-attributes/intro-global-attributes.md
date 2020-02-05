@@ -1,5 +1,5 @@
 ---
-author: stefan.stojanovic
+author: Stefan-Stojanovic
 
 levels:
   - beginner
@@ -11,15 +11,13 @@ category: must-know
 
 stub: true
 
-standards:
-
 aspects:
   - introduction
   - workout
   - deep
  
 links:
-  -  '[MDN docs on Global Attributes](https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes){website}'
+  -  '[Global Attributes List](https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes){documentation}'
 ---
 # Intro Global Attributes
 ---
@@ -85,8 +83,7 @@ Example tooltip upon hovering over a picture:
   title="Enki logo">
 ```
 Result:
-
-https://img.enkipro.com/1baaf47ca1749331849a42993cf2fc6b.png
+![logo](https://img.enkipro.com/96c1cc81cf8b05259e4f409e58ee6475.png)
 
 ---
 ## Practice

@@ -1,5 +1,5 @@
 ---
-author: stefan.stojanovic
+author: Stefan-Stojanovic
 
 levels:
   - beginner
@@ -14,11 +14,6 @@ aspects:
   - workout
   - obscura
   - deep
-
-standards:
-  web.syntax-html.2: 10
-  web.syntax-html.3: 10
-
 
 ---
 # Conditional Comments (ie9)

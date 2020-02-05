@@ -23,7 +23,7 @@ aspects:
 ---
 ## Content
 
-You don't normally want every file in a project to be  under version control. Files that control local configuration or compiled code files, for example, should be excluded and **Git** provides the `.gitignore` file.
+You don't normally want every file in a project to be under version control. Files that control local configuration or compiled code files, for example, should be excluded and **Git** provides the `.gitignore` file.
 
 
 If **Git** finds a `.gitignore` file[1] in the root of your project, it will use it to automatically ignore all files specified by the *ignore rule*.
@@ -79,7 +79,6 @@ What file is used to tell git to ignore certain files in your project?
 
 ---
 ## Footnotes
-[1: Dot-files]
 
+[1: Dot files]
 By convention, a "dot-file" (a file name which begins with `.`) is hidden and extra steps are required for it to be displayed in the file explorer.
- 

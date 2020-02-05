@@ -1,5 +1,5 @@
 ---
-author: stefan.stojanovic
+author: Stefan-Stojanovic
 
 levels:
   - beginner
@@ -9,14 +9,11 @@ type: normal
 
 category: must-know
 
-standards:
-  web.syntax-html.4: 10
-
 aspects:
   - introduction
 
 links:
-  - '[Short intro video for HTML](https://scrimba.com/p/pZaVfV/cQr3mfM){website}'
+  - '[Short intro video for HTML](https://scrimba.com/p/pZaVfV/cQr3mfM){video}'
 
 ---
 # HTML Defined

@@ -9,9 +9,6 @@ type: normal
 
 category: must-know
 
-standards:
-  web.embed-media.0: 10
-
 aspects:
   - introduction
   - workout
@@ -30,7 +27,7 @@ Example:
   title="Enki: Official Logo">
 ```
 
-![image-with-tooltip](https://img.enkipro.com/028cd89a69e14a473a4bd05e579d143a.png)
+![image-with-tooltip](https://img.enkipro.com/5182be329afc3898f8f5fb4db11ceb08.png)
 
 
 ---
@@ -78,4 +75,3 @@ When the cursor is over the image, what code will add a visual tooltip?
 * text
 * alt
 * src
- 

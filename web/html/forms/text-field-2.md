@@ -1,5 +1,5 @@
 ---
-author: stefan.stojanovic
+author: Stefan-Stojanovic
 
 levels:
   - beginner
@@ -12,15 +12,9 @@ category: must-know
 aspects:
   - introduction
   - workout
-
-standards:
-  web.html-forms.0: 10
   
 links:
-  - '[Codepen: Form minlength & maxlength](https://codepen.io/enkidevs/pen/mjwJop){code}'
-  - '[Codepen: Form pattern](https://codepen.io/enkidevs/pen/QBgbPY){code}'
-  - '[MDN docs for text](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/text){website}'
-
+  - '[HTML: <text> Element](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/text){documentation}'
 
 ---
 

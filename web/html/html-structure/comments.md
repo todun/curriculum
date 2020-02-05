@@ -1,5 +1,5 @@
 ---
-author: stefan.stojanovic
+author: Stefan-Stojanovic
 
 levels:
   - beginner
@@ -9,11 +9,9 @@ type: normal
 
 category: must-know
 
-standards:
-  web.syntax-html.0: 10
-
 aspects:
   - introduction
+  
 ---
 # Comments
 ---

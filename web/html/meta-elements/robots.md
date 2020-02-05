@@ -1,5 +1,5 @@
 ---
-author: stefan.stojanovic
+author: Stefan-Stojanovic
 
 levels:
   - beginner
@@ -8,11 +8,6 @@ levels:
 type: normal
 
 category: must-know
-
-standards:
-  web.metadata.0: 10
-  web.metadata.3: 10
-  web.metadata.4: 10
 
 tags:
   - workout
@@ -23,7 +18,7 @@ aspects:
   - deep
 
 ---
-# Robots
+# The `robot` Attribute
 ---
 ## Content
 

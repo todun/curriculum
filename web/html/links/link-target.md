@@ -1,5 +1,5 @@
 ---
-author: stefan.stojanovic
+author: Stefan-Stojanovic
 
 levels:
   - beginner
@@ -16,8 +16,6 @@ aspects:
   - introduction
 
 links:
-  - '[CodePen: Link in Existing Tab](https://codepen.io/enkidevs/pen/yqbBBG){code}'
-  - '[CodePen: Link in New Tab](https://codepen.io/enkidevs/pen/jpmNbe){code}'
 
 ---
 # Target Link
@@ -43,7 +41,7 @@ Link with default value displayed:
 </a>
 ```
 
-<!--[View CodePen](https://codepen.io/enkidevs/pen/OwmLVz)-->
+[View CodePen](https://codepen.io/enkidevs/pen/OwmLVz)
 
 The other values for the target are `target="value"`:
 
@@ -62,7 +60,7 @@ Example of opening the link in a different tab:
 </a>
 ```
 
-<!--[View CodePen](https://codepen.io/enkidevs/pen/jpmNbe)-->
+[View CodePen](https://codepen.io/enkidevs/pen/jpmNbe)
 
 
 ** Note:** `_self` is only needed to open within the same tab/window when overriding conflicting code.

@@ -30,7 +30,7 @@ Like most programming languages, JavaScript has a number of syntax rules that mu
 
 ### Semicolon
 
-In EcmaScript it is best practice to add a semicolon at the end of a statement:
+In ECMAScript it is best practice to add a semicolon at the end of a statement:
 
 ```javascript
 var company="enki";
@@ -48,16 +48,18 @@ var firstName="John";
 
 If `var` is omitted the variable will still be created and referenced, but it will behave in unintended ways because of a concept in JavaScript called scope.
 
-JavaScript has two scopes, global and local. If a variable is defined *outside* of a function then it is in the global scope which means it can be read and changed throughout the program. If a variable is declared *inside* a function then it will only "exist" or be accessible inside the function.  For example, here enki is declared inside a function and will exist only inside the function:
+JavaScript has two scopes, global and local. If a variable is defined *outside* of a function then it is in the global scope which means it can be read and changed throughout the program. If a variable is declared *inside* a function then it will only "exist" or be accessible inside the function.  For example, here company is declared inside a function and will exist only inside the function:
 
 
 ```javascript
 function hello(){
    var company="enki";
-   console.log(company); // "enki"
+   console.log(company); 
+   // "enki"
 }
 // variable out of scope
-console.log(company); // undefined
+console.log(company); 
+// ReferenceError: company is not defined
 ```
 
 ---
@@ -107,7 +109,7 @@ console.log(answer)
 
 ???
 
-* undefined
+* ReferenceError: answer is not defined
 * 42
 * answer
 * local

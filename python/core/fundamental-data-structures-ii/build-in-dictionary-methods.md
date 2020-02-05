@@ -23,78 +23,84 @@ links:
 
 ---
 
-# Dictionary methods
+# Dictionary Methods
 
 ---
 ## Content
 
 Consider the following dictionary:
 
-```
-dict = {1:1, 2:4, 3:9, 4:16, 5:25}
+```python
+a_dict = {
+  1: 1,
+  2: 4,
+  3: 9, 
+  4: 16, 
+  5: 25
+}
 ```
 
 Python provides a plethora of **methods** intended for dictionaries manipulation:
 
 - `clear()`: removes all items from the **dictionary**
 
-```
-dict.clear()
-print(dict)
+```python
+a_dict.clear()
+print(a_dict)
 
 # Output: {}
 ```
 
 - `copy()` : returns a **shallow copy**[1] of the **dictionary**
 
-```
-new = dict.copy()
+```python
+new = a_dict.copy()
 print(new)
 
-# Output: {1:1, 2:4, 3:9, 4:16, 5:25}
+# Output: {1: 1, 2: 4, 3: 9, 4: 16, 5: 25}
 ```
 
-- `get(key,[default])`: the value mapped to the given key; if there's no item with that key, it'll return the optional argument `default`
+- `get(key[, default])`: returns the value mapped to the given key; if there's no item with that key, it'll return the optional argument `default`
 
-```
-print(dict.get(3))
+```py
+print(a_dict.get(3))
 
 # Output: 9
 ```
 
 - `items()`: returns a list composed of all dictionary entries expressed as tuples of the form `(key,value)`
 
-```
-print(dict.items())
+```py
+print(a_dict.items())
 
 # Output:
-# (2, 4), (3, 9), (4, 16), (5, 25)])
+# [(1, 1), (2, 4), (3, 9), (4, 16), (5, 25)]
 ```
 
 - `keys()` : returns a list of all dictionary `key`s
 
-```
-print(dict.keys())
+```py
+print(a_dict.keys())
 
 # Output: [1, 2, 3, 4, 5]
 ```
 
-- `pop(key,[d])` : returns the item with the given `key`. If no item is found, the optional `default` argument will be returned
+- `pop(key[, default])` : removes the item at the given position (`key`) in the list, and returns its value; if no item is found, the optional `default` argument will be returned
 
-```
-print(dict.pop(4))
-print(dict)
+```py
+a_dict.pop(4)
+print(a_dict)
 
 # Output:
 # 16
 # {1: 1, 2: 4, 3: 9, 5: 25}
 ```
 
-- `popitem()` : returns an arbitrary **item** from the dictionary and `KeyError` if the **dictionary** is empty
+- `popitem()` : removes an **arbitrary item** from the dictionary, and returns it; if the dictionary **is empty**, `KeyError` is returned 
 
-```
-print(dict.popitem())
-print(dict)
+```py
+a_dict.popitem()
+print(a_dict)
 
 # Output:
 # (5,25)
@@ -103,17 +109,18 @@ print(dict)
 
 - `values()` : lists all the values present in the **dictionary**
 
-```
-print(dict.values())
+```py
+print(a_dict.values())
 
-# Output: dict_values([1, 4, 9, 16, 25])
+# Output:
+# [1, 4, 9, 16, 25]
 ```
 
 - `fromkeys(seq[, v])`: return a new **dictionary** with keys from `seq` and value equal to `v`
 
-```
-dict = {}.fromkeys([1,2,3], 0)
-print(dict)
+```py
+a_dict = {}.fromkeys([1,2,3], 0)
+print(a_dict)
 
 # Output: {1: 0, 2: 0, 3: 0}
 ```
@@ -121,10 +128,15 @@ print(dict)
 ---
 ## Practice
 
-Suppose we want to create a dictionary having the following keys starting from `1` up to `5` and value `0` assigned to all items. Fill the gaps accordingly:
-```
+Suppose we want to create a dictionary using the `fromkeys` method. Fill the gaps accordingly:
+```py
 new = ???.???(
   [1, 2, 3, 4, 5], ???)
+
+print(new)
+
+# Output:
+# {1: 0, 2: 0, 3: 0, 4: 0, 5: 0}
 ```
 
 * `{}`
@@ -141,7 +153,7 @@ new = ???.???(
 ## Revision
 
 Print all of the keys from the dictionary:
-```
+```py
 num_dict = {1:1, 2:4, 3:9, 4:16, 5:25}
 
 print(???)
@@ -154,6 +166,5 @@ print(???)
 
 ---
 ## Footnotes
-[1:shallow copy]
-If we have two objects: `A` and `B`. We say `B` is a shallow copy of `A` if they point to the same location in memory.
-
+[1:Shallow Copy]
+Shallow copies are used to duplicate the minimum amount necessary. Let's say we have a collection named `A`. If we were to make a **shallow copy** of it (named `B`), we would say that `B` represents a copy of `A`s structure, not `A`s elements. Now, both `A` and `B` point to (or share) the same elements that `A` initially had.

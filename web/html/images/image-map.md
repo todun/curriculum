@@ -1,5 +1,5 @@
 ---
-author: stefan.stojanovic
+author: Stefan-Stojanovic
 
 levels:
   - beginner
@@ -9,27 +9,26 @@ type: normal
 
 category: must-know
 
-standards:
-  web.embed-media.0: 10
-
 aspects:
   - introduction
   - workout
   - obscura
 
 links:
-  - '[A walkthrough on w3schools](https://www.w3schools.com/tags/att_area_coords.asp){website}'
-  - '[Documentation on MDN](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/map){documentation}'
-  - '[An example on w3schools](https://www.w3schools.com/tags/att_img_usemap.asp){website}'
-  - '[Official docs on w3.org](https://dev.w3.org/html5/spec-preview/image-maps.html){documentation}'
+  - '[A walkthrough on w3schools](https://www.w3schools.com/tags/att_area_coords.asp){documentation}'
+  - '[MDN: <map> Element](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/map){documentation}'
+  - '[Example With <map>](https://www.w3schools.com/tags/att_img_usemap.asp){documentation}'
+  - '[w3.org: <map> Element](https://dev.w3.org/html5/spec-preview/image-maps.html){documentation}'
 ---
 # Image Map
 ---
 ## Content
 
-The HTML `<map>` element is used for creating links on selected portions of an image when used alongside the `<area>` attribute. 
+The HTML `<map>` element is used for creating links on selected portions of an image when used alongside the `<area>` attribute.
 
-<!--[View CodePen](https://codepen.io/enkidevs/pen/ajbxbX)-->
+[View CodePen](https://codepen.io/enkidevs/pen/ajbxbX)
+
+`usemap` is an attribute used with a <map> element's name attribute to create a relationship between the `<img>` and `<map>` elements.
 
 The clickable area has 3 available shapes:
   - `rect` (Rectangle)
@@ -61,7 +60,7 @@ poly: shape="x1,y1,x2,y2,x3,y3...xn,yn"
   **- (0,0)** are the top left corner coordinates of an area.
   **-** `coords` attribute is specified in pixels.
 
- Finding the coordinates can be tricky and tedious. Luckily, there are free services like [http://www.image-maps.com/](http://www.image-maps.com/) to make this much easier! 
+Finding the coordinates can be tricky and tedious. Luckily, there are free services like [http://www.image-maps.com/](http://www.image-maps.com/) to make this much easier!
 
 
 ---
@@ -74,21 +73,18 @@ Add map elements to create clickable areas within a single image.
   <area shape="???" coords="10,50,82,126"
     alt="" href="object1.htm">
   <area shape="???" coords="90,58,3"
-    alt="" href="object2.htm"
-      target="???">
+    alt="" href="object2.htm">
   <area shape="???"
     coords="14,24,12,32,25,41,34,33,32,25"
       alt="" href="object3.htm">
 </map>
 
-<img ???="#objects" src="#" alt="">
+<img usemap="#objects" src="#" alt="">
 ```
 
 * rect
 * circle
-* _blank
 * poly
-* usemap
 * rectangle
 * polygon
 * pentagon
@@ -141,4 +137,3 @@ Place the shape value within the appropriate location to create the proper code.
 * polygon
 * pentagon
 * square
- 
